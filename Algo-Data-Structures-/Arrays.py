@@ -1,12 +1,21 @@
 '''
 Arrays
-stock_prices = [298,200,302,301,292]
+
 In python these are dynamic arrays, size can grow, dimensional arrays
+
+Initialize
+stock_prices = []
+
 Retrieve O(1)
  stock_prices[0]
 Insert O(1)
  stock_prices.insert(1, 292) or append for adding to backDelete O(1) 
  stock_prices.remove(1)
+Delete O(1) 
+ stock_prices.remove(1)
+
+LeetCodes
+https://leetcode.com/tag/array/
 
 Exercise 
 -Let us say your expense for every month are listed below,
@@ -30,3 +39,31 @@ print("Expenses at the end of June:",exp)
 #5. You returned an item that you bought in a month of April and got a refund of 200$. Make a correction to your monthly expense list based on this
 exp[3] = exp[3] - 200
 print("Expenses after 200$ return in April:",exp)
+
+
+'''Leetcode - Two sums
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+You can return the answer in any order.
+https://leetcode.com/problems/two-sum/solution/
+'''
+
+#O(n)
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        for i in range(0, len(nums)):
+            goal = target - nums[i]
+            if (goal in nums[i+1:]):
+                index2 = nums[i+1:].index(goal) + i + 1
+                return [i,index2]
+#Fastest 
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        hashmap = {}
+        for i in range(len(nums)):
+            complement = target - nums[i]
+            if complement in hashmap:
+                return [i, hashmap[complement]]
+            hashmap[nums[i]] = i
