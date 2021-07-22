@@ -87,7 +87,6 @@ class Solution:
         array = merged_array.sort()
         arr_length = len(merged_array)
         middle_arr = math.ceil(arr_length/2)
-        print(array, arr_length, middle_arr, arr_length/2, math.ceil(2.5))
         #odd length just grab the middle
         if (len(merged_array) %2 == 1):
             return merged_array[middle_arr-1]
@@ -96,3 +95,41 @@ class Solution:
             median = (merged_array[middle_arr-1] + merged_array[middle_arr])/2
             return median
         
+
+'''Leetcode - Three sums
+Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
+
+Notice that the solution set must not contain duplicate triplets.
+
+ 
+
+Example 1:
+
+Input: nums = [-1,0,1,2,-1,-4]
+Output: [[-1,-1,2],[-1,0,1]]
+
+https://leetcode.com/problems/3sum/
+
+'''
+def threeSum(self, nums: List[int]) -> List[List[int]]:
+        #Edge cases
+        if nums is None or len(nums) < 2:
+            return []
+        arr = sorted(nums)
+        result = set()
+        for x in range(0,len(arr)-1):
+            target = -arr[x]
+            i = arr[x]
+            j = x+1
+            k = len(arr)-1
+            while j < k:
+                sum = arr[j] + arr[k]
+                if sum < target:
+                    j=j+1
+                elif sum > target:
+                    k=k-1
+                else:
+                    result.add((arr[x], arr[j], arr[k])) 
+                    j=j+1
+                    k=k-1
+        return result

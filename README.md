@@ -8,6 +8,10 @@ For coding Interview Prep
 <li>Arrays.py</li>
 <li>LinkedList.py</li>
 </ol>
+<h3>Do leetcodes daily 2 - 3</h3>
+<h3>Watch Byte byte</h3>
+<h3>Watch Live coding interviews</h3>
+<h3>Practice exams</h3>
 
 
 <h2>Leetcodes</h2>
@@ -15,4 +19,6 @@ For coding Interview Prep
 <ul>
 <li>Arrays - Two Sum, https://leetcode.com/problems/two-sum/</li>
 <li>Arrays - Median of Two Sorted Arrays, https://leetcode.com/problems/median-of-two-sorted-arrays/</li>
+<li>Arrays - Median of Two Sorted Arrays, https://leetcode.com/problems/median-of-two-sorted-arrays/</li>
+<li>Linkedlist - Median of Two Sorted Arrays, https://leetcode.com/problems/median-of-two-sorted-arrays/</li>
 <ul>
