@@ -6,7 +6,6 @@
 Def foo:
     return 1 + 2
 ```
-
 <h2>O(n)</h2>
 One for loop
 ```
