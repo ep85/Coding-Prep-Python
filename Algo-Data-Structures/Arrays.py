@@ -1,6 +1,7 @@
 '''
 Arrays
 
+Definition
 In python these are dynamic arrays, size can grow, dimensional arrays
 
 Initialize
@@ -67,3 +68,31 @@ class Solution:
             if complement in hashmap:
                 return [i, hashmap[complement]]
             hashmap[nums[i]] = i
+
+'''  Median of Two Sorted Arrays
+Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
+
+The overall run time complexity should be O(log (m+n)).
+
+Example 1:
+Input: nums1 = [1,3], nums2 = [2]
+Output: 2.00000
+Explanation: merged array = [1,2,3] and median is 2.
+'''
+
+class Solution:
+    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+        #setup
+        merged_array = nums1 + nums2
+        array = merged_array.sort()
+        arr_length = len(merged_array)
+        middle_arr = math.ceil(arr_length/2)
+        print(array, arr_length, middle_arr, arr_length/2, math.ceil(2.5))
+        #odd length just grab the middle
+        if (len(merged_array) %2 == 1):
+            return merged_array[middle_arr-1]
+        #Even length do more work
+        else:
+            median = (merged_array[middle_arr-1] + merged_array[middle_arr])/2
+            return median
+        
