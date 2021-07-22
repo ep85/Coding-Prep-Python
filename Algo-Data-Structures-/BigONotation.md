@@ -2,8 +2,10 @@
 <h2>O(1)</h2>
 <p>no for loop or anything just easy transactions</p>
 <code>
+```
 Def foo:
     return 1 + 2
+```
 </code>
 <h2>O(n)</h2>
 One for loop<br>
