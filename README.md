@@ -1,8 +1,8 @@
 # Coding-Prep-Python
 For coding Interview Prep
 
-Do these in order
-1. Start with Algo-Data-Strutures Folder
+<h2>Do these in order</h2>
+<h3>Start with Algo-Data-Strutures Folder</h3>
 <ol>
 <li>BigONotation.md</li>
 <li>Arrays.py</li>
