@@ -15,8 +15,8 @@ for i in range(0,10):
 ```
 <h2>O(n^2)</h2>
 Two for loops one being nested<br>
-```
 
+```
 for i in range(0,10):
     for x in range(0,10):
         print(x)
