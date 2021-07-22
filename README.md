@@ -14,4 +14,5 @@ For coding Interview Prep
 <p> Solutions are in the .py files associsiated </p>
 <ul>
 <li>Arrays - Two Sum, https://leetcode.com/problems/two-sum/</li>
+<li>Arrays - Median of Two Sorted Arrays, https://leetcode.com/problems/median-of-two-sorted-arrays/</li>
 <ul>
