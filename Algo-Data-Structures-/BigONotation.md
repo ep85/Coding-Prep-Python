@@ -1,10 +1,12 @@
 <h1>Big O notation - Time Complexity </h1>
 <h2>O(1)</h2>
 <p>no for loop or anything just easy transactions</p>
+
 ```
 Def foo:
     return 1 + 2
 ```
+
 <h2>O(n)</h2>
 One for loop
 ```
