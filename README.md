@@ -8,6 +8,7 @@ For coding Interview Prep
 <li>Arrays.py</li>
 <li>LinkedList.py</li>
 <li>HashTable.py</li>
+<li>Queue.py</li>
 </ol>
 <h3>Do leetcodes daily 2 - 3</h3>
 <h3>Watch Byte byte</h3>
@@ -25,3 +26,10 @@ For coding Interview Prep
 <li>LinkedList -  Merge k Sorted Lists, https://leetcode.com/problems/merge-k-sorted-lists/</li>
 <li>HashTable -  Roman to Integer - https://leetcode.com/problems/roman-to-integer/submissions/</li>
 <ul>
+
+<h1>Tips</h1>
+dir(stack) -- sees all the methods
+
+add space complexity to big O
+
+add space complexity to all files
