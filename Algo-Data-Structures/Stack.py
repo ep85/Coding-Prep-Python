@@ -8,13 +8,16 @@ Search O(n)
 
 '''
 
-#Example
-stk = []
-stk.append("test1")
-stk.append("test2")
-stk.append("test3")
-stk.append("test4")
-stk.pop()
-#test4
-stk.pop()
-#test3
+#Example 
+from collections import deque
+stack = deque()
+stack.push("test1")
+stack.push("test2")
+stack.size()
+# 2
+stack.peak()
+# test2
+stack.pop()
+# test2
+stack.pop()
+# test1
