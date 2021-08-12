@@ -24,6 +24,8 @@ Searches
 In order traversal [7,12,14,15,20,23,27,88]
 Pre order traversal [15,12,7,14,27,20,23,88]
 Post order traversal [7,14,12,23,20,88,27,15]
+
+Iterative inorder traversal has the best time performance
 '''
 
 class BinarySearchTreeNode:
@@ -62,6 +64,7 @@ class BinarySearchTreeNode:
 
         return elements
     
+    #Depth First Search
     def search(self, val):
         if self.data == val:
             return True
