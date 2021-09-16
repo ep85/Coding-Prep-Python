@@ -15,12 +15,13 @@ https://www.youtube.com/playlist?list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12
 <li>Tree.py</li>
 <li>Binary-Tree.py</li>
 <li>Graph.py</li>
+<li>BinarySearch.py</li>>
 </ol>
 
 
 <h3>Daily To Do</h3>
-<h3>Do leetcodes daily 2-3/day</h3>
-<h3>Watch Byte byte 3 a day</h3>
+<p>Do leetcodes daily 2-3/day</p>
+<p>Watch Byte byte 3 a day</p>
 
 
 <h2>Leetcodes</h2>
@@ -33,23 +34,15 @@ https://www.youtube.com/playlist?list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12
 <li>Reverse String II ,https://leetcode.com/problems/reverse-string-ii/solution/
 </ul>
 <h3>Linkedlist</h3>
+<ul>
 <li>Add Two Numbers, https://leetcode.com/problems/add-two-numbers/solution/</li>
 <li>Merge k Sorted Lists, https://leetcode.com/problems/merge-k-sorted-lists/</li>
-<h3>HashTable</h3>
-<li>Roman to Integer - https://leetcode.com/problems/roman-to-integer/submissions/</li>
-<ul>
-
-<h2>Byte to Byte</h2>
-<h3>Arrays</h3>
-<h3>LinkedList</h3>
-<h3>HashTable</h3>
-<h3>Queue</h3>
-<h3>Stack</h3>
-<h3>Binary Tree</h3>
-<ul>
-<li>Check Binary Tree - https://www.youtube.com/watch?v=dB9aikwZttY&list=PLNmW52ef0uwtUY4OFRF0eV1mlT5lKhe_j</li>
-<li>Tree Level Order - https://www.youtube.com/watch?v=eltLoCIDIes&list=PLNmW52ef0uwtUY4OFRF0eV1mlT5lKhe_j&index=2 </li>
 </ul>
+<h3>HashTable</h3>
+<ul>
+<li>Roman to Integer - https://leetcode.com/problems/roman-to-integer/submissions/</li>
+</ul>
+<ul>
 
 <h1>Tips</h1>
 dir(stack) -- sees all the methods
