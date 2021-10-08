@@ -15,36 +15,31 @@ https://www.youtube.com/playlist?list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12
 <li>Tree.py</li>
 <li>Binary-Tree.py</li>
 <li>Graph.py</li>
-<li>BinarySearch.py</li>>
+<li>DynamicProgramming.py</li>>
 </ol>
 
+<h3>Sorting</h3>
+<ol>
+<li>BFS.py</li>
+<li>BHS.py</li>
+<li>BinarySearch.py</li>
+</ol>
+<h3>Searching</h3>
+<ol>
+<li>Bubble.py</li>
+<li>Heap.py</li>
+<li>Insertion.py</li>
+<li>MergeSort.py</li>
+</ol>
+<ol>
 
-<h3>Daily To Do</h3>
-<p>Do leetcodes daily 2-3/day</p>
-<p>Watch Byte byte 3 a day</p>
-
+</ol>
 
 <h2>Leetcodes</h2>
-<h3>Arrays</h3>
-<ul>
-<li>Two Sum, https://leetcode.com/problems/two-sum/</li>
-<li>Median of Two Sorted Arrays, https://leetcode.com/problems/median-of-two-sorted-arrays/</li>
-<li>Median of Two Sorted Arrays, https://leetcode.com/problems/median-of-two-sorted-arrays/</li>
-<li>Three sum, https://leetcode.com/problems/3sum/</li>
-<li>Reverse String II ,https://leetcode.com/problems/reverse-string-ii/solution/
-</ul>
-<h3>Linkedlist</h3>
-<ul>
-<li>Add Two Numbers, https://leetcode.com/problems/add-two-numbers/solution/</li>
-<li>Merge k Sorted Lists, https://leetcode.com/problems/merge-k-sorted-lists/</li>
-</ul>
-<h3>HashTable</h3>
-<ul>
-<li>Roman to Integer - https://leetcode.com/problems/roman-to-integer/submissions/</li>
-</ul>
-<ul>
+<h3>https://docs.google.com/spreadsheets/d/1Q2L7Y4L-Kk1jQ2QZ-C6KHXYc9AR44DA4nUgT-PZQFus/edit#gid=1499200361</h3>
 
 <h1>Tips</h1>
+https://www.bigocheatsheet.com/
 dir(stack) -- sees all the methods
 Using streams for data feeds 
 
